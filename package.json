@@ -1,0 +1,25 @@
+{
+  "name": "express-typescript",
+  "version": "0.0.1-alpha0.0.1",
+  "description": "Aplicacion de node.js con express y typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elboqueronpaco/express-typescript.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "node",
+    "express"
+  ],
+  "author": "elboqueronpaco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elboqueronpaco/express-typescript/issues"
+  },
+  "homepage": "https://github.com/elboqueronpaco/express-typescript#readme"
+}
