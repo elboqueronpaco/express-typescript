@@ -1,15 +1,6 @@
-import express, { Application } from "express";
+import { config } from 'dotenv'
+config()
+import App from './app/App'
 
-const app: Application = express()
-const port: string = process.env.PORT || '8000'
-/* Middlewares */
-app.use(express.json())
-
-app.get('/ping', (_req, res) => {
-    console.log('someone pinged here!!')
-    res.send('pong')
-})
-
-app.listen(port, () =>{
-    console.log(`Server runnign on http://localhost:${port}`)
-})
+const app = new App()
+app.listen()
